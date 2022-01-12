@@ -3,7 +3,7 @@
 Website: http://webprogramming.inf.elte.hu/students/g9og7n/ELTE_STD/index.php
 
 # Explanation
-This is a full-stack web page that was made for learning purposes. It focuses on the backend and datamanagement of the web page.
+This is a full-stack web page that was made for learning purposes. It focuses on the backend and data management of the web page.
 ".json" file used for storing data.
 
 # Usage:
