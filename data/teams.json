@@ -1,0 +1,142 @@
+{
+    "61ce9060ea911": {
+        "name": "Real Madrid CF",
+        "city": "Madrid",
+        "logo": "Real_Madrid_CF.png",
+        "count": 2,
+        "id": "61ce9060ea911"
+    },
+    "61ce9060ea915": {
+        "name": "FC Bayern Munich",
+        "city": "Munich",
+        "logo": "FC_Bayern_Munchen.png",
+        "count": 2,
+        "id": "61ce9060ea915"
+    },
+    "61ce9060ea916": {
+        "name": "Liverpool F.C.",
+        "city": "Liverpool",
+        "logo": "Liverpool_FC.png",
+        "count": 2,
+        "id": "61ce9060ea916"
+    },
+    "61ce9060ea917": {
+        "name": "Juventus F.C.",
+        "city": "Turin",
+        "logo": "Juventus_FC.png",
+        "count": 0,
+        "id": "61ce9060ea917"
+    },
+    "61ce9060ea918": {
+        "name": "Paris Saint-Germain F.C.",
+        "city": "Paris",
+        "logo": "Paris_Saint_Germain_FC.png",
+        "count": 0,
+        "id": "61ce9060ea918"
+    },
+    "61ce9060ea919": {
+        "name": "Manchester City F.C.",
+        "city": "Manchester",
+        "logo": "Manchester_City_FC.png",
+        "count": 0,
+        "id": "61ce9060ea919"
+    },
+    "61ce9060ea91a": {
+        "name": "Manchester United F.C.",
+        "city": "Manchester",
+        "logo": "Manchester_United_FC.png",
+        "count": 0,
+        "id": "61ce9060ea91a"
+    },
+    "61ce9060ea91b": {
+        "name": "Chelsea F.C.",
+        "city": "Fulham",
+        "logo": "Chelsea_FC.png",
+        "count": 0,
+        "id": "61ce9060ea91b"
+    },
+    "61ce9060ea91c": {
+        "name": "Borussia Dortmund",
+        "city": "Dortmund",
+        "logo": "Borussia_Dortmund.png",
+        "count": 0,
+        "id": "61ce9060ea91c"
+    },
+    "61ce9060ea91d": {
+        "name": "Tottenham Hotspur F.C",
+        "city": "Tottenham",
+        "logo": "Tottenham_Hotspur.png",
+        "count": 0,
+        "id": "61ce9060ea91d"
+    },
+    "61ce9060ea91e": {
+        "name": "Inter Milan",
+        "city": "Milan",
+        "logo": "FC_Internazionale_Milano.png",
+        "count": 0,
+        "id": "61ce9060ea91e"
+    },
+    "61ce9060ea91f": {
+        "name": "Arsenal F.C.",
+        "city": "London",
+        "logo": "Arsenal_FC.png",
+        "count": 0,
+        "id": "61ce9060ea91f"
+    },
+    "61ce9060ea920": {
+        "name": "FC Barcelona",
+        "city": "Barcelona",
+        "logo": "FC_Barcelona.png",
+        "count": 0,
+        "id": "61ce9060ea920"
+    },
+    "61ce9060ea921": {
+        "name": "FC Porto",
+        "city": "Porto",
+        "logo": "FC_Porto.png",
+        "count": 0,
+        "id": "61ce9060ea921"
+    },
+    "61ce9060ea922": {
+        "name": "West Ham United F.C.",
+        "city": "London ",
+        "logo": "West_Ham_United_FC.png",
+        "count": 0,
+        "id": "61ce9060ea922"
+    },
+    "61ce9060ea923": {
+        "name": "Rangers F.C.",
+        "city": "Glasgow",
+        "logo": "Rangers_FC.png",
+        "count": 0,
+        "id": "61ce9060ea923"
+    },
+    "61ce9060ea924": {
+        "name": "RB Leipzig",
+        "city": "Leipzig",
+        "logo": "RB_Leipzig.png",
+        "count": 0,
+        "id": "61ce9060ea924"
+    },
+    "61ce9060ea925": {
+        "name": "Clube de Regatas do Flamengo",
+        "city": "Rio de Janeiro",
+        "logo": "Flamengo.png",
+        "count": 0,
+        "id": "61ce9060ea925"
+    },
+    "61ce9060ea926": {
+        "name": "S.S.C. Napoli",
+        "city": "Naples",
+        "logo": "SSC_Neapel.png",
+        "count": 0,
+        "id": "61ce9060ea926"
+    },
+    "61ce9060ea927": {
+        "name": "S.L. Benfica",
+        "city": "Lisbon",
+        "logo": "SL_Benfica.png",
+        "count": 0,
+        "id": "61ce9060ea927"
+    }
+}

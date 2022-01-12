@@ -1,0 +1,923 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* VARIABLES */
+.modal {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Full-width input fields */
+.modal {
+  /* Extra styles for the cancel button */
+}
+.modal input[type=text], .modal input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 11px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.modal input[type=text]:focus, .modal input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.modal button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.modal button:hover {
+  opacity: 1;
+}
+.modal .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.modal .cancelbtn, .modal .signupbtn {
+  float: left;
+  width: 50%;
+}
+.modal .container {
+  padding: 16px;
+}
+.modal .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+.modal hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.modal .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 300px) {
+  .modal .cancelbtn, .modal .signupbtn {
+    width: 100%;
+  }
+}
+
+.modal {
+  display: block;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  padding-top: 50px;
+}
+
+.login-modal {
+  /* Set a style for all buttons */
+  /* Extra styles for the cancel button */
+  /* Center the image and position the close button */
+  /* The Modal (background) */
+  /* Modal Content/Box */
+  /* The Close Button (x) */
+  /* Add Zoom Animation */
+  /* Change styles for span and cancel button on extra small screens */
+}
+.login-modal input[type=text], .login-modal input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.login-modal button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.login-modal button:hover {
+  opacity: 0.8;
+}
+.login-modal .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.login-modal #unregistered {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #04AA6D;
+}
+.login-modal .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+.login-modal img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+.login-modal .container {
+  padding: 16px;
+}
+.login-modal .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.login-modal span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.login-modal .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%;
+  /* Could be more or less, depending on screen size */
+}
+@media screen and (max-width: 300px) {
+  .login-modal span.psw {
+    display: block;
+    float: none;
+  }
+  .login-modal .cancelbtn {
+    width: 100%;
+  }
+  .login-modal #unregistered {
+    width: 100%;
+  }
+}
+
+.login-modal {
+  display: block;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.commentArea {
+  padding-top: 30px;
+}
+.commentArea:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.commentArea textarea {
+  width: 90%;
+  height: 75px;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 0 auto;
+  display: block;
+}
+.commentArea #container0 {
+  padding-top: 0px;
+  padding-right: 35px;
+  float: left;
+  display: none;
+}
+.commentArea .container {
+  padding-top: 0px;
+  padding-right: 35px;
+  float: right;
+}
+.commentArea .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.commentArea .disabledcancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  color: #e6dbdb;
+  background-color: #680700;
+  opacity: 1;
+}
+.commentArea button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
+.commentArea .cancelbtn:hover, .commentArea .commentbtn:hover {
+  opacity: 1;
+}
+.commentArea .commentbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #065fd4;
+}
+.commentArea .disabledcommentbtn {
+  width: auto;
+  padding: 10px 18px;
+  color: #e6dbdb;
+  background-color: #00285c;
+  opacity: 1;
+}
+.commentArea .commentError {
+  color: black;
+  display: block;
+  background-color: lightcoral;
+  border: 1px solid red;
+  padding: 5px;
+  margin-top: 10px;
+  margin: 10px 45px;
+  max-width: 300px;
+}
+
+.error {
+  color: black;
+  display: block;
+  background-color: lightcoral;
+  border: 1px solid red;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.commentSection {
+  border-radius: 10px;
+  width: 80%;
+  border: 5px solid #b0b7bb;
+  margin: 30px auto;
+  background-color: #96a1b7;
+}
+.commentSection #commentsHeader {
+  top: -20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: #b0b7bb;
+  color: #080008;
+}
+.commentSection .comments {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  width: 80%;
+  margin: auto;
+}
+.commentSection #innerList {
+  padding-left: 40px;
+  padding-top: 10px;
+  list-style-type: none;
+}
+.commentSection #innerList li {
+  width: 80%;
+  overflow-wrap: anywhere;
+}
+
+.line {
+  height: 5px;
+  background-color: #b0b7bb;
+  width: 80%;
+  border-radius: 3px;
+  margin: auto;
+}
+
+/* The Modal (background) */
+.mod-content {
+  display: block;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  padding-top: 50px;
+  /* Modal Content/Box */
+  /* Style the horizontal ruler */
+  /* The Close Button (x) */
+  /* Clear floats */
+  /* Add a background color when the inputs get focus */
+  /* Set a style for all buttons */
+  /* Extra styles for the cancel button */
+  /* Float cancel and signup buttons and add an equal width */
+  /* Add padding to container elements */
+}
+.mod-content .mod-innercontent {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+}
+.mod-content hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.mod-content .close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.mod-content .close:hover,
+.mod-content .close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+.mod-content .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.mod-content input[type=text], .mod-content input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.mod-content input[type=text]:focus, .mod-content input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.mod-content button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.mod-content button:hover {
+  opacity: 1;
+}
+.mod-content .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.mod-content .cancelbtn, .mod-content .signupbtn {
+  float: left;
+  width: 50%;
+}
+.mod-content .box {
+  padding: 16px;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 17px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#ppl-counter {
+  margin-right: 10px;
+  padding-left: 10px;
+  color: #f8f9fb;
+  display: inline-block;
+}
+
+.user-adv {
+  text-align: center;
+  margin: auto;
+  background-color: black;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  float: right;
+  margin-right: 10px;
+  color: #f8f9fb;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  padding: 0 8%;
+}
+.header h1 {
+  color: #f8f9fb;
+  font-size: 40px;
+}
+.header p {
+  color: #f8f9fb;
+}
+.header .title {
+  margin-bottom: 75px;
+}
+
+#black_sheet {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000ad;
+  z-index: -10;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .nav-links {
+  padding: 28px 0;
+}
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #f8f9fb;
+  padding: 5px 0;
+  position: relative;
+}
+nav .btn {
+  background: #40b63c;
+  color: #f8f9fb;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 120px;
+  opacity: 0.9;
+}
+nav button:hover {
+  opacity: 1;
+}
+
+.back-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+@media (max-aspect-ratio: 1.7777777778) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}
+@media (min-aspect-ratio: 1.7777777778) {
+  .back-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.content {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  overflow: auto;
+}
+
+#white-background {
+  background-color: #f0ffff75;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+.content #teams-list {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 40px auto;
+}
+.content #teams-list th {
+  background-color: #40b63c;
+  color: white;
+  padding: 8px;
+  border: 0.5px dashed black;
+}
+.content #teams-list td {
+  text-align: left;
+  padding: 8px;
+  border: 0.5px dashed black;
+  width: 200px;
+}
+.content #teams-list tr:nth-child(even) {
+  background-color: #f8f9fb;
+}
+.content #teams-list tr:nth-child(odd) {
+  background-color: #080008;
+}
+.content #teams-list tr:nth-child(even) a {
+  text-decoration: none;
+  padding: 5px 0;
+  color: #080008;
+  position: relative;
+}
+.content #teams-list tr:nth-child(odd) a {
+  text-decoration: none;
+  padding: 5px 0;
+  color: #f8f9fb;
+  position: relative;
+}
+.content #teams-list a::after {
+  content: "";
+  background-color: #40b63c;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+.content #teams-list a:hover::after {
+  width: 100%;
+}
+
+.content #matches {
+  border-collapse: collapse;
+  width: 100%;
+  padding-top: 100px;
+  margin: 40px auto;
+}
+.content #matches th {
+  background-color: #032f3e;
+  color: #f8f9fb;
+  padding: 8px;
+  border: 0.5px solid black;
+}
+.content #matches td {
+  text-align: left;
+  padding: 8px;
+  border: 0.5px dashed black;
+  text-align: center;
+  width: 200px;
+}
+.content #matches tr {
+  background-color: #f8f9fb;
+  color: #080008;
+}
+
+.content #details-matches {
+  border-collapse: collapse;
+  width: 90%;
+  padding-top: 100px;
+  margin: 40px auto;
+  min-width: 250px;
+  overflow: hidden;
+}
+.content #details-matches th {
+  background-color: #032f3e;
+  color: #f8f9fb;
+  padding: 8px;
+  border: 0.5px solid black;
+}
+.content #details-matches td {
+  text-align: left;
+  padding: 8px;
+  border: 0.5px dashed black;
+  text-align: center;
+  width: 200px;
+}
+.content #details-matches tr {
+  background-color: #f8f9fb;
+  color: #080008;
+}
+.content #details-matches #editbtn {
+  width: auto;
+  padding: 5px 9px;
+  background-color: #40b63c;
+  margin: 4px auto;
+  color: #f8f9fb;
+  border-radius: 10px;
+  float: right;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+}
+.content #details-matches #editbtn:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  -webkit-animation: shake 0.5s;
+          animation: shake 0.5s;
+  /* When the animation is finished, start again */
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.content #details-matches #edittd {
+  text-align: left;
+  padding: 4px;
+  background-color: #032f3e;
+  color: #f8f9fb;
+  border: 0.5px dashed black;
+  text-align: center;
+  width: 80px;
+}
+
+.win {
+  background-color: #40b63c;
+  color: #f8f9fb;
+}
+
+.lose {
+  background-color: #913737;
+  color: #f8f9fb;
+}
+
+.draw {
+  background-color: #d2dd35;
+  color: #f8f9fb;
+}
+
+.emptyS {
+  background-color: #b6bbc4;
+  color: #080008;
+}
+
+.date {
+  background-color: #032f3e;
+  color: #f8f9fb;
+}
+
+#backMain {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #40b63c;
+  margin: 8px 10px;
+  color: #f8f9fb;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+#fav {
+  float: right;
+  width: 225px;
+}
+
+#deletebtn {
+  width: auto;
+  padding: 5px 9px;
+  background-color: #f44336;
+  margin: 8px 10px;
+  color: #f8f9fb;
+  border-radius: 10px;
+  float: right;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#deletebtn:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  -webkit-animation: shake 0.5s;
+          animation: shake 0.5s;
+  /* When the animation is finished, start again */
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(1deg);
+            transform: translate(1px, -2px) rotate(1deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(1deg);
+            transform: translate(1px, -2px) rotate(1deg);
+  }
+}
+#backMain:hover {
+  opacity: 1;
+}
+
+.logocontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.logo {
+  width: 20%;
+  width: 15%;
+  -webkit-filter: drop-shadow(5px 5px 4px #4444dd);
+          filter: drop-shadow(5px 5px 4px #4444dd);
+}
+
+.extend-reduce {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10px auto;
+}
+
+.extend-navs {
+  outline: none;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  -ms-flex-negative: 2;
+      flex-shrink: 2;
+  height: 30px;
+  -ms-flex-preferred-size: 50px;
+      flex-basis: 50px;
+  width: 100px;
+  cursor: pointer;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  background-color: #e4f2fd;
+  -webkit-transition: background 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out;
+  opacity: 0.9;
+}
+
+.extend-navs:hover {
+  opacity: 1;
+}
+
+.extend-navs:focus {
+  outline: none;
+}
+
+#show-less {
+  background-color: #f44336;
+  color: #f8f9fb;
+  margin-right: 5px;
+}
+
+#show-more {
+  background-color: #40b63c;
+  color: #f8f9fb;
+  margin-left: 5px;
+}

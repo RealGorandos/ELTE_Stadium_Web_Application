@@ -1,0 +1,51 @@
+{
+    "61ce3a08ae618": {
+        "username": "admin",
+        "email": "admin@eltestadium.hu",
+        "password": "$2y$10$fyv\/TH6XWSv.RlF0yDrZhuQxe4yVVEMGPPb.e2GVfzlCD3K1rTusK",
+        "roles": [
+            "admin"
+        ],
+        "favorite": [],
+        "id": "61ce3a08ae618"
+    },
+    "61db7ffea1c74": {
+        "username": "Sam",
+        "email": "sam@gmail.com",
+        "password": "$2y$10$IMxwXSDVQpVa325j67bFSOZcc6D5dpUnJDBEwxreOTzpNaHS.C7Ki",
+        "roles": [
+            "user"
+        ],
+        "favorite": [
+            "61ce9060ea911"
+        ],
+        "id": "61db7ffea1c74"
+    },
+    "61db808ebf29c": {
+        "username": "Adam",
+        "email": "adam@gmail.com",
+        "password": "$2y$10$N3OQotRGedWrMel2DL0xmuSDM4DIUMUj3o4YZ82yFLBznQRfH8\/3e",
+        "roles": [
+            "user"
+        ],
+        "favorite": [
+            "61ce9060ea911",
+            "61ce9060ea916",
+            "61ce9060ea915"
+        ],
+        "id": "61db808ebf29c"
+    },
+    "61db814733ca0": {
+        "username": "Carl",
+        "email": "carl@yahoo.com",
+        "password": "$2y$10$42XVsKM49YR6snYnEIFzhOZYL7rOLbtVBe6C0GTPY29Dh1TdBb7Vu",
+        "roles": [
+            "user"
+        ],
+        "favorite": [
+            "61ce9060ea915",
+            "61ce9060ea916"
+        ],
+        "id": "61db814733ca0"
+    }
+}
